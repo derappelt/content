@@ -23,7 +23,7 @@ The meaning of this property depends on the value of this performance entry's {{
 - `longtask`
   - : The elapsed time between the start and end of task, with a 1ms granularity.
 - `measure`
-  - : The duration of the measure.
+  - : The duration of the measure in milliseconds.
 - `navigation`
   - : The difference between the entry's {{domxref("PerformanceNavigationTiming.loadEventEnd", "loadEventEnd")}} and {{domxref("PerformanceEntry.startTime", "startTime")}} properties.
 - `resource`
